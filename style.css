@@ -57,3 +57,11 @@ h1{
 .msg-container{
   margin-top: 5rem;
 }
+#reset{
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+}
