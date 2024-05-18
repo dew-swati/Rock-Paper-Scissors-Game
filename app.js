@@ -5,6 +5,7 @@ const choices=document.querySelectorAll(".choice");
 const msg=document.querySelector("#msg");
 const userScore1=document.querySelector("#user-score");
 const compScore1=document.querySelector("#comp-score");
+const reset=document.querySelector("#reset");
 
 genCompChoice=()=>{
   const options=["rock","paper","scissors"];
@@ -62,3 +63,10 @@ choices.forEach((choice)=>{
     playGame(userChoice);
   })
 });
+
+reset.addEventListener("click",()=>{
+    userScore=0;
+    userScore1.innerText=userScore;
+    compScore=0;
+    compScore1.innerText=compScore;
+})
